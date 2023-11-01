@@ -244,7 +244,7 @@ body {
   text-transform: uppercase;
   font-size: clamp(1rem, 0.963rem + 0.1852vw, 1.125rem);
   line-height: 1.2;
-  max-width: 959px;
+  max-width: 930px;
   margin: auto;
   color: $font-color;
   width: 100%;
@@ -254,7 +254,7 @@ body {
   }
 
   & .es-section__top {
-    background-image: url(../images/bg-1.png);
+    background-image: url('../images/bg-1.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -648,7 +648,7 @@ body {
 
     &__title {
       max-width: 39.75rem;
-      font-size: clamp(1rem, 1.5rem, 2rem);
+      font-size: clamp(0.75rem, 1.5rem, 1.75rem);
       font-weight: 700;
       color: #ef9dc4;
       text-align: center;
@@ -731,7 +731,7 @@ body {
   right: 0;
   transform: translateY(-50%);
   width: calc(100vw - 20px);
-  max-width: 959px;
+  max-width: 930px;
 }
 
 .es-slider .es-prev-arrow,

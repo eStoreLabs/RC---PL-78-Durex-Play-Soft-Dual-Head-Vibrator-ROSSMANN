@@ -127,7 +127,7 @@ body {
   text-transform: uppercase;
   font-size: clamp(1rem, 0.963rem + 0.1852vw, 1.125rem);
   line-height: 1.2;
-  max-width: 959px;
+  max-width: 930px;
   margin: auto;
   color: #fff;
   width: 100%;
@@ -136,7 +136,7 @@ body {
   margin-block: 0;
 }
 #es-rc #es-rc-content .es-section__top {
-  background-image: url(../images/bg-1.png);
+  background-image: url("../images/bg-1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -570,7 +570,7 @@ body {
   right: 0;
   transform: translateY(-50%);
   width: calc(100vw - 20px);
-  max-width: 959px;
+  max-width: 930px;
 }
 
 .es-slider .es-prev-arrow,
