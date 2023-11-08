@@ -240,7 +240,7 @@ body {
   margin-block: 0;
 }
 #es-rc #es-rc-content .es-section__top {
-  background-image: url('../img/bg-1.png');
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/durex/5011417585436/img/bg-1.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -439,7 +439,7 @@ body {
   }
 }
 #es-rc #es-rc-content .es-section__bottom {
-  background-image: url('../img/bg-2.png');
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/durex/5011417585436/img/bg-2.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
@@ -464,7 +464,7 @@ body {
 }
 #es-rc #es-rc-content .es-info:after {
   content: '';
-  background-image: url('../img/hand.png');
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/durex/5011417585436/img/hand.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -617,6 +617,11 @@ body {
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 2rem;
+  scale: 1;
+  transition: all 0.3s ease-in-out;
+}
+#es-rc #es-rc-content .es-cross__img:hover {
+  transform: scale(1.02);
 }
 #es-rc #es-rc-content .es-cross__item-title {
   display: block;
@@ -637,6 +642,14 @@ body {
   border-radius: 1rem;
   background-color: #fff;
   text-decoration: none;
+  outline: 1px solid #1c35b0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#es-rc #es-rc-content .es-cross__item-link:hover {
+  color: #005baa;
+  outline: 1px solid #fff;
+  transform: translateY(-2px);
 }
 #es-rc #es-rc-content .es-section__bottom .es-cross__title {
   margin: 0 auto;
@@ -722,4 +735,19 @@ body {
 .es-features__single.reveal {
   opacity: 1;
   transform: translateY(0);
+}
+#es-rc #es-rc-content .es-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+#es-rc #es-rc-content .es-footer__text {
+  text-align: center;
+  text-wrap: balance;
+  font-weight: 800;
+  margin: 0;
+  font-size: clamp(1rem, 0.8276rem + 0.7882vw, 1.3rem);
 }
