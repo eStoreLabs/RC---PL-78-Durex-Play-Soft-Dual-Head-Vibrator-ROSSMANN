@@ -240,7 +240,7 @@ body {
   margin-block: 0;
 }
 #es-rc #es-rc-content .es-section__top {
-  background-image: url('../images/bg-1.png');
+  background-image: url('../img/bg-1.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -439,7 +439,7 @@ body {
   }
 }
 #es-rc #es-rc-content .es-section__bottom {
-  background-image: url('../images/bg-2.png');
+  background-image: url('../img/bg-2.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
@@ -464,7 +464,7 @@ body {
 }
 #es-rc #es-rc-content .es-info:after {
   content: '';
-  background-image: url('../images/hand.png');
+  background-image: url('../img/hand.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
