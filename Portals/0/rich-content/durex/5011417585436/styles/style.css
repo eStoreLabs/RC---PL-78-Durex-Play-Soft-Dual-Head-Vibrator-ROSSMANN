@@ -736,18 +736,4 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-#es-rc #es-rc-content .es-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding: 2rem;
-}
 
-#es-rc #es-rc-content .es-footer__text {
-  text-align: center;
-  text-wrap: balance;
-  font-weight: 800;
-  margin: 0;
-  font-size: clamp(1rem, 0.8276rem + 0.7882vw, 1.3rem);
-}
